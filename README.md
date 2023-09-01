@@ -1,3 +1,6 @@
+---
+---
+@import "{{ site.theme }}";
 # Carmellobernard.github.io
 - name:carmello Upload a Build Artifact
   uses: actions/upload-artifact@v3.1.2
@@ -17,3 +20,6 @@ Available Options:
 Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
 
     retention-days: # optional
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
