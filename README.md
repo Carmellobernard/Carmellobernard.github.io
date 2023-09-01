@@ -18,3 +18,5 @@ Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
 - jekyll-remote-theme
+title:Carmello's unblocked games
+description: Ama try to make a unblocked games
