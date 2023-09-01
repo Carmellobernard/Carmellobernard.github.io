@@ -17,3 +17,6 @@ Available Options:
 Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
 
     retention-days: # optional
+remote_theme: pages-themes/architect@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
