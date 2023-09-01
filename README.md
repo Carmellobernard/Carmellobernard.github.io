@@ -15,8 +15,6 @@ Available Options:
     if-no-files-found: # optional, default is warn
     # Duration after which artifact will expire in days. 0 means using default retention.
 Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
-
-    retention-days: # optional
 remote_theme: pages-themes/architect@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
