@@ -1,8 +1,8 @@
 # Carmellobernard.github.io
-- name: Upload a Build Artifact
+- name:carmello Upload a Build Artifact
   uses: actions/upload-artifact@v3.1.2
   with:
-    # Artifact name
+    # Artifact name Carmello
     name: # optional, default is artifact
     # A file, directory or wildcard pattern that describes what to upload
     path: 
